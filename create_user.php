@@ -10,4 +10,4 @@ $user->setName($newUsername);
 $entityManager->persist($user);
 $entityManager->flush();
 
-echo "User Created with ID " . $user->getId() . "\n";
+echo "Created User with ID " . $user->getId() . "\n";
